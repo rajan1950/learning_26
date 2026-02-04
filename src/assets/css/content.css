@@ -1,0 +1,49 @@
+.content {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    
+}
+.bio{
+   margin-top: 100px;
+   padding: 25px;
+   border: 2px solid black;
+   height: auto;
+}
+.virat{
+    color: blue;
+    height: 300px;
+    width: 265px;
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgrey;
+
+}
+.info{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 20px;
+    height: auto;
+
+   
+    
+}
+.viru{
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    margin: auto;
+    background-color: rgb(10, 119, 236);  
+}
+.text{
+    color:white;
+    text-align: center;
+    
+}
