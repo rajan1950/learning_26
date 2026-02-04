@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const NetflixShows = () => {
   return (
@@ -12,6 +13,20 @@ export const NetflixShows = () => {
           </tr>
         </thead>
       </table>
+
+      <ul>
+        <li>
+          <Link to="/watch/moneyhiest">MONEY HIEST</Link>
+        </li>
+        <li>
+          <Link to="/watch/breakingbad">BREACKING BAD</Link>
+        </li>
+        <li>
+          <Link to="/watch/strangerthings">STRANGER THINGS</Link>
+        </li>
+      </ul>
+
+      
     </div>
   )
 }
