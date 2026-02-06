@@ -19,6 +19,8 @@ export const NetflixSports = () => {
     <div style={{ textAlign: "center" }}>
       <h1>Netflix Sports</h1>
 
+      <h1 className='table table-warning'>IPL TEAMS</h1>
+
       <table className='table table-warning' style={{ marginLeft: "400px", width: "500px", marginTop: "50px" }}>
         <thead>
           <tr>

@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
     return (
-        <div>   
+        <div>
             {/* <h1>Navbar Component</h1> */}
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <a className="navbar-brand" href="/"style={{color:"Red"}}>Netflix</a>
+                <a className="navbar-brand" href="/" style={{ color: "Red" }}>Netflix</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -29,6 +29,22 @@ export const Navbar = () => {
 
                         <li className="nav-item">
                             <Link className="nav-link" to="/netflixsports">Sports</Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/functiondemo">Function Demo</Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/usedemo1">UseState Demo 1</Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/usedemo2">UseState Demo 2</Link>
+                        </li>
+                        
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/usedemo3">UseState Demo 3</Link>
                         </li>
 
                     </ul>
