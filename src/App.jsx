@@ -17,10 +17,14 @@ import { Functiondemo } from './components/Functiondemo.jsx'
 import { UseStatedemo1 } from './components/UseStatedemo1.jsx'
 import { UseStatedemo2 } from './components/UseStatedemo2.jsx'
 import { UseStatedemo3 } from './components/UseStatedemo3.jsx'
+import { Employees } from './components/Employees.jsx'
+import { InputDemo1 } from './components/input/InputDemo1.jsx'
+import { InputDemo2 } from './components/input/InputDemo2.jsx'
+import { FormDemo1 } from './components/Form/FormDemo1.jsx'
+import { FormDemo2 } from './components/Form/FormDemo2.jsx' 
+import { FormDemo3 } from './components/Form/FormDemo3.jsx'
+import { FormDemo4 } from './components/Form/FormDemo4.jsx'
 
-
-
- 
 // import './App.css'
 // import { Headercomponent } from './components/Headercomponent.jsx'
 // import { Footercomponent } from './components/Footercomponent.jsx'
@@ -68,6 +72,15 @@ function App() {
         <Route path="/usedemo1" element={<UseStatedemo1></UseStatedemo1>}></Route>
         <Route path="/usedemo2" element={<UseStatedemo2></UseStatedemo2>}></Route>
         <Route path="/usedemo3" element={<UseStatedemo3></UseStatedemo3>}></Route>
+        <Route path="/employees" element={<Employees></Employees>}></Route>
+        <Route path="/inputdemo1" element={<InputDemo1></InputDemo1>}></Route>
+        <Route path="/inputdemo2" element={<InputDemo2></InputDemo2>}></Route>
+        <Route path="/formdemo1" element={<FormDemo1></FormDemo1>}></Route>
+        <Route path="/formdemo2" element={<FormDemo2></FormDemo2>}></Route>
+        <Route path="/formdemo3" element={<FormDemo3></FormDemo3>}></Route>
+        <Route path="/formdemo4" element={<FormDemo4></FormDemo4>}></Route>
+        
+        
 
        
       </Routes>

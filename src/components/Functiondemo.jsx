@@ -1,4 +1,5 @@
 import React from 'react'
+import { CardComponent } from './CardComponent'
 
 export const Functiondemo = () => {
 
@@ -12,8 +13,9 @@ export const Functiondemo = () => {
     return (
         <div style={{ textAlign: "center" }}>
             <h1>function demo 1</h1>
-            <button onClick={test}>Click</button>
+            <button className="mr-5" onClick={test}>Click1</button>
             <button onClick={() => test2("100")}>Click2</button>
+            <CardComponent title="Card Title" description="This is a description"></CardComponent>
         </div>
     )
 }
