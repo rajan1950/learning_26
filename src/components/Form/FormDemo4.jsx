@@ -36,9 +36,9 @@ export const FormDemo4 = () => {
                 </div>
                 <div>
                     <label>Student STD</label> <br></br>
-                    FIRST YEAR :<input type='checkbox' value="first year" {...register("department")}></input>
-                    SECOND YEAR :<input type='checkbox' value="second year" {...register("department")}></input>
-                    THIRD YEAR :<input type='checkbox' value="third year" {...register("department")}></input>
+                    FIRST YEAR :<input type='checkbox' value="first year" {...register("department")}></input> <br />
+                    SECOND YEAR :<input type='checkbox' value="second year" {...register("department")}></input> <br />
+                    THIRD YEAR :<input type='checkbox' value="third year" {...register("department")}></input> <br />
                     FOURTH YEAR :<input type='checkbox' value="fourth year" {...register("department")}></input>
                 </div>
 

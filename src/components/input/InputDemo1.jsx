@@ -4,6 +4,10 @@ import { useState } from 'react'
 export const InputDemo1 = () => {
 
     const [name, setName] = useState("")
+    const [studentId, setStudentId] = useState("")
+   
+   
+
 
     const nameHandler = (event) => {
         console.log(event.target.value)
@@ -26,9 +30,18 @@ export const InputDemo1 = () => {
             </div>
             <div>
                 <label>AGE</label>
-                <input type="text" onChange={(event)=>{ageHandler(event)}}></input>
+                <input type="text" onChange={(event) => { ageHandler(event) }}></input>
                 {age}
             </div>
+
+            <div>
+                <input type='submit'></input>
+            </div>
+            
+                <h1>OUTPUT</h1>
+                <h1>Name = {name}</h1>
+                <h1>AGE = {age}</h1>
+           
         </div>
     )
 }

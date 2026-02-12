@@ -16,24 +16,24 @@ export const Navbar = () => {
                         <li className="nav-item active">
                             <Link className="nav-link" to="/netflixhome">Home <span className="sr-only">(current)</span></Link>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <Link className="nav-link" to="/netflixmovie">Movies</Link>
-                        </li>
+                        </li> */}
 
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <Link className="nav-link" to="/netflixshows">Shows</Link>
-                        </li>
-                        <li className="nav-item">
+                        </li> */}
+                        {/* <li className="nav-item">
                             <Link className="nav-link" to="/netflixaccount">Account</Link>
-                        </li>
+                        </li> */}
 
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <Link className="nav-link" to="/netflixsports">Sports</Link>
-                        </li>
+                        </li> */}
 
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <Link className="nav-link" to="/functiondemo">Function Demo</Link>
-                        </li>
+                        </li> */}
 
                         <li className="nav-item">
                             <Link className="nav-link" to="/usedemo1">UseState Demo 1</Link>
@@ -73,6 +73,14 @@ export const Navbar = () => {
 
                         <li className="nav-item">
                             <Link className="nav-link" to="/formdemo4">Form Demo 4</Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/formdemo5">Form Demo 5</Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/formtask">Form Task</Link>
                         </li>
 
                     </ul>

@@ -20,6 +20,7 @@ export const FormDemo3 = () => {
                 <div>
                     <label>EMPLOYEE ID</label>
                     <input type='number' placeholder='enter employee ID' {...register("employeeId")}></input>
+                    {/* spread operation use{...} */}
                 </div>
                 <div>
                     <label>Employee NAME</label>
