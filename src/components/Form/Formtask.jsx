@@ -167,7 +167,7 @@ export const Formtask = () => {
                 </div>
 
                 {
-                    isSubmited  && <div>
+                    isSubmited  &&  <div>
                         <h1>OUTPUT</h1>
                         <h2>Name = {userdata.name}</h2>
                         <h2>Id = {userdata.id}</h2>

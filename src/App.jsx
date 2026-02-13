@@ -26,6 +26,10 @@ import { FormDemo3 } from './components/Form/FormDemo3.jsx'
 import { FormDemo4 } from './components/Form/FormDemo4.jsx'
 import { FormDemo5 } from './components/Form/FormDemo5.jsx'
 import { Formtask } from './components/Form/Formtask.jsx'
+import { FormDemo6 } from './components/Form/FormDemo6.jsx'
+import { FormDemo7 } from './components/Form/FormDemo7.jsx'
+import { Formpasswordtask } from './components/Form/Formpasswordtask.jsx'
+
 
 // import './App.css'
 // import { Headercomponent } from './components/Headercomponent.jsx'
@@ -83,6 +87,9 @@ function App() {
         <Route path="/formdemo4" element={<FormDemo4></FormDemo4>}></Route>
         <Route path="/formdemo5" element={<FormDemo5></FormDemo5>}></Route>
         <Route path="/formtask" element={<Formtask></Formtask>}></Route>
+        <Route path="/formdemo6" element={<FormDemo6></FormDemo6>}></Route>
+        <Route path="/formdemo7" element={<FormDemo7></FormDemo7>}></Route>
+        <Route path="/formpasswordtask" element={<Formpasswordtask></Formpasswordtask>}></Route>
         
         
 

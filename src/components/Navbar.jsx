@@ -13,27 +13,27 @@ export const Navbar = () => {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
-                        <li className="nav-item active">
-                            <Link className="nav-link" to="/netflixhome">Home <span className="sr-only">(current)</span></Link>
-                        </li>
-                        {/* <li className="nav-item">
+                        {/* <li className="nav-item active">
+                            <Link className="nav-link" to="/netflixhome">Home <span className="sr-only">(current)</span></Link> */}
+                        {/* </li>
+                        <li className="nav-item">
                             <Link className="nav-link" to="/netflixmovie">Movies</Link>
-                        </li> */}
+                        </li>
 
-                        {/* <li className="nav-item">
+                        <li className="nav-item">
                             <Link className="nav-link" to="/netflixshows">Shows</Link>
-                        </li> */}
-                        {/* <li className="nav-item">
+                        </li>
+                        <li className="nav-item">
                             <Link className="nav-link" to="/netflixaccount">Account</Link>
-                        </li> */}
+                        </li>
 
-                        {/* <li className="nav-item">
+                        <li className="nav-item">
                             <Link className="nav-link" to="/netflixsports">Sports</Link>
-                        </li> */}
+                        </li>
 
-                        {/* <li className="nav-item">
+                        <li className="nav-item">
                             <Link className="nav-link" to="/functiondemo">Function Demo</Link>
-                        </li> */}
+                        </li>
 
                         <li className="nav-item">
                             <Link className="nav-link" to="/usedemo1">UseState Demo 1</Link>
@@ -57,7 +57,7 @@ export const Navbar = () => {
 
                         <li className="nav-item">
                             <Link className="nav-link" to="/inputdemo2">Input Demo 2</Link>
-                        </li>
+                        </li> */}
 
                         <li className="nav-item">
                             <Link className="nav-link" to="/formdemo1">Form Demo 1</Link>
@@ -81,6 +81,18 @@ export const Navbar = () => {
 
                         <li className="nav-item">
                             <Link className="nav-link" to="/formtask">Form Task</Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/formdemo6">Form Demo 6</Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/formdemo7">Form Demo 7</Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/formpasswordtask">Form Password Task</Link>
                         </li>
 
                     </ul>
