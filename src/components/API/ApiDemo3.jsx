@@ -25,7 +25,7 @@ export const ApiDemo3 = () => {
             <button onClick={getComments}>Get Comments</button>
             <p>Comments : {comments.length}</p>
 
-            <table className='table-danger table' >
+            <table className='table table-danger table-bordered' >
                 <thead>
                     <tr>
                         <th>ID</th>

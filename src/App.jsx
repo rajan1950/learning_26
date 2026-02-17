@@ -32,6 +32,7 @@ import { Formpasswordtask } from './components/Form/Formpasswordtask.jsx'
 import { ApiDemo1 } from './components/API/ApiDemo1.jsx'
 import { ApiDemo2 } from './components/API/ApiDemo2.jsx'
 import { ApiDemo3 } from './components/API/ApiDemo3.jsx'
+import { ApiDemoTask } from './components/API/ApiDemoTask.jsx'
 import { TableComponent } from './components/Tableomponent.jsx'
 
 
@@ -98,6 +99,7 @@ function App() {
         <Route path="/apidem1" element={<ApiDemo1></ApiDemo1>}></Route>
         <Route path="/apidem2" element={<ApiDemo2></ApiDemo2>}></Route>
         <Route path="/apidem3" element={<ApiDemo3></ApiDemo3>}></Route>
+        <Route path="/apidemtask" element={<ApiDemoTask></ApiDemoTask>}></Route>
         <Route path="/tablecomponent" element={<TableComponent></TableComponent>}></Route>
         
         

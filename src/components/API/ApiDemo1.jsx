@@ -34,8 +34,9 @@ export const ApiDemo1 = () => {
         })
       }
 
-      <table className='table-danger table'>
+      <table className='table table-danger table-bordered'>
         <thead>
+          <tr>
           <th>ID</th>
           <th>Name</th>
           <th>Email</th>
@@ -43,6 +44,7 @@ export const ApiDemo1 = () => {
           <th>Age</th>
           <th>isActive</th>
           <th>__v</th>
+          </tr>
         </thead>
         <tbody>
           {

@@ -25,7 +25,7 @@ export const ApiDemo2 = () => {
             <button onClick={getProducts}>Get Products</button>
             <p>Products : {products.length}</p>
 
-            <table className='table-danger table' >
+            <table className='table table-danger table-bordered' >
                 <thead>
                     <tr>
                         <th>ID</th>
