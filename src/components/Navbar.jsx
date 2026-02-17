@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 export const Navbar = () => {
     return (
         <div>
@@ -93,6 +94,18 @@ export const Navbar = () => {
 
                         <li className="nav-item">
                             <Link className="nav-link" to="/formpasswordtask">Form Password Task</Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/apidem1">API Demo 1</Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/apidem2">API Demo 2</Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/apidem3">API Demo 3</Link>
                         </li>
 
                     </ul>

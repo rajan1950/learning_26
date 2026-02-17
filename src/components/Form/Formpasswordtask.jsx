@@ -67,8 +67,8 @@ export const Formpasswordtask = () => {
                 message: "Minimum 8 characters required"
             },
             maxLength: {
-                value: 20,
-                message: "Maximum 20 characters allowed"
+                value: 50,
+                message: "Maximum 50 characters allowed"
             },
         },
         confirmPasswordValidator: {
@@ -141,7 +141,7 @@ export const Formpasswordtask = () => {
                 <button type="submit">Submit</button>
             </form>
 
-
+    
         </div>
     )
 }
