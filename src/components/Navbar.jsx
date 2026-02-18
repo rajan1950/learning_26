@@ -14,9 +14,10 @@ export const Navbar = () => {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
+
                         {/* <li className="nav-item active">
-                            <Link className="nav-link" to="/netflixhome">Home <span className="sr-only">(current)</span></Link> */}
-                        {/* </li>
+                            <Link className="nav-link" to="/netflixhome">Home <span className="sr-only">(current)</span></Link> 
+                        </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/netflixmovie">Movies</Link>
                         </li>
@@ -58,9 +59,9 @@ export const Navbar = () => {
 
                         <li className="nav-item">
                             <Link className="nav-link" to="/inputdemo2">Input Demo 2</Link>
-                        </li> */}
+                        </li>
 
-                        <li className="nav-item">
+                         <li className="nav-item">
                             <Link className="nav-link" to="/formdemo1">Form Demo 1</Link>
                         </li>
 
@@ -96,6 +97,10 @@ export const Navbar = () => {
                             <Link className="nav-link" to="/formpasswordtask">Form Password Task</Link>
                         </li>
 
+                          <li className="nav-item">
+                            <Link className="nav-link" to="/tablecomponent">Table Component</Link>
+                        </li> */}
+
                         <li className="nav-item">
                             <Link className="nav-link" to="/apidem1">API Demo 1</Link>
                         </li>
@@ -108,9 +113,24 @@ export const Navbar = () => {
                             <Link className="nav-link" to="/apidem3">API Demo 3</Link>
                         </li>
 
+                         <li className="nav-item">
+                            <Link className="nav-link" to="/apidem4">API Demo 4</Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/apidem5">API Demo 5</Link>
+                        </li>
+
                         <li className="nav-item">
                             <Link className="nav-link" to="/apidemtask">API Demo Task</Link>
                         </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/omdbsearch">OMDB Search</Link>
+                        </li>
+
+
+                       
 
                     </ul>
 
