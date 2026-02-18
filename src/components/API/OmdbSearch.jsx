@@ -19,7 +19,7 @@ export const OmdbSearch = () => {
    };
    return (
       <div style={{ textAlign: "center", backgroundColor: "#d1d1d1", color: "white" }}>
-         <h1>OMDB SEARCH</h1>
+         <h1>MOVIE'S SEARCH</h1>
          <div className="d-flex" style={{ margin: "auto", width: "300px" }}><input  
             onChange={(e) => { setsearchParam(e.target.value) }} 
             className="form-control mr-sm-2" type="search" 
