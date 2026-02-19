@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { use, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
@@ -62,6 +62,12 @@ function App() {
     <div>
       <Navbar></Navbar>
       {/* <Headercomponent></Headercomponent> */}
+
+
+      {/* {MAP DEMO COMPONENTS} */}
+
+
+
       {/* <Mapdemo1></Mapdemo1> */}
       {/* <Mapdemo2></Mapdemo2> */}
       {/* <Mapdemo3></Mapdemo3> */}
@@ -72,7 +78,14 @@ function App() {
       {/* <Mapdemo8></Mapdemo8> */}
       {/* <Mapdemo9></Mapdemo9> */}
       {/* <Mapdemo10></Mapdemo10> */}
+
+      {/* {FOTERCOMPONENT} */}
+
+
       {/* <Footercomponent></Footercomponent> */}
+
+
+      {/* {Router DEMO COMPONENTS} */}
       <Routes>
         <Route path="/" element={<HomeComponent></HomeComponent>}></Route>
         <Route path="/netflixhome" element={<NetflixHome></NetflixHome>}></Route>
@@ -85,10 +98,14 @@ function App() {
         <Route path="/teamsdetails/:name" element={<TeamDetail></TeamDetail>}></Route>
         <Route path="/teamsdetails/:name/:id" element={<TeamDetail></TeamDetail>}></Route>
         <Route path="/functiondemo" element={<Functiondemo></Functiondemo>}></Route>
+
+        {/* {useState()} */}
         <Route path="/usedemo1" element={<UseStatedemo1></UseStatedemo1>}></Route>
         <Route path="/usedemo2" element={<UseStatedemo2></UseStatedemo2>}></Route>
         <Route path="/usedemo3" element={<UseStatedemo3></UseStatedemo3>}></Route>
         <Route path="/employees" element={<Employees></Employees>}></Route>
+
+        {/* {input and form demo components} */}
         <Route path="/inputdemo1" element={<InputDemo1></InputDemo1>}></Route>
         <Route path="/inputdemo2" element={<InputDemo2></InputDemo2>}></Route>
         <Route path="/formdemo1" element={<FormDemo1></FormDemo1>}></Route>
@@ -100,6 +117,8 @@ function App() {
         <Route path="/formdemo6" element={<FormDemo6></FormDemo6>}></Route>
         <Route path="/formdemo7" element={<FormDemo7></FormDemo7>}></Route>
         <Route path="/formpasswordtask" element={<Formpasswordtask></Formpasswordtask>}></Route>
+
+        {/* {API DEMO COMPONENTS} */}
         <Route path="/apidem1" element={<ApiDemo1></ApiDemo1>}></Route>
         <Route path="/apidem2" element={<ApiDemo2></ApiDemo2>}></Route>
         <Route path="/apidem3" element={<ApiDemo3></ApiDemo3>}></Route>

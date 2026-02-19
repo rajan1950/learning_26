@@ -23,7 +23,7 @@ export const OmdbSearch = () => {
          <div className="d-flex" style={{ margin: "auto", width: "300px" }}><input  
             onChange={(e) => { setsearchParam(e.target.value) }} 
             className="form-control mr-sm-2" type="search" 
-            placeholder="Type Movie Name... " aria-label="Search" 
+            placeholder="Type Movie Name... " aria-label="Search" q
          />
          
          <button className="btn btn-outline-success" onKeyDown={searchMovie} onClick={searchMovie}>Search</button>

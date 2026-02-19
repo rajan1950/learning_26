@@ -91,7 +91,7 @@ export const ApiDemo5 = () => {
             {/* Password  */}
             <div className="form-group">
                <label htmlFor="inputPassword">Password</label>
-               <input type="password" className="form-control" id="inputPassword" placeholder="Password" {...register("password", validationSchema.passwordValidator)} />
+               <input type="password" className="form-control" id="inputPassword" placeholder="Enter Password" {...register("password", validationSchema.passwordValidator)} />
             </div>
 
             {/* Age  */}
