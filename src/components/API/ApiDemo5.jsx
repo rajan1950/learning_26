@@ -69,11 +69,13 @@ export const ApiDemo5 = () => {
 
    return (
       <div >
-         <h1 style={{ textAlign: 'center' }}>ApiDemo5</h1>
+         {/* <h1 style={{ textAlign: 'center' }}>ApiDemo5</h1> */}
 
          <ToastContainer position="top-right" autoClose={2500} />
 
-         <form onSubmit={handleSubmit(submitHandler)} style={{ width: '600px', margin: 'auto' }}>
+         <form onSubmit={handleSubmit(submitHandler)} style={{ width: '600px', margin: 'auto', padding: '20px', border: '2.5px solid #989696', borderRadius: '6.9px', marginTop: '40px' }}>
+
+            <h1 style={{ textAlign: 'center', border: '3px solid #989696', padding: '10px', borderRadius: '5px', borderBlock:'1px solid #989696', color: '#333' , fontSize: '30px' }}>Register Form</h1>
             {/* Name */}
             <div className="form-group">
                <label htmlFor="inputName">Name</label>
@@ -105,7 +107,7 @@ export const ApiDemo5 = () => {
             </div>
 
             {/* IsActive */}
-            <div className="form-check">
+            <div className="form-check" style={{ marginTop: '10px' , display: 'flex', alignItems: 'center', }}>  
                <input className="form-check-input" type="checkbox" id="isActiveCheckbox" {...register("isActive")} />
                <label className="form-check-label" htmlFor="isActiveCheckbox">
                   isActive ?
@@ -113,7 +115,7 @@ export const ApiDemo5 = () => {
             </div>
 
             {/* Submit */}
-            <button type="submit" className="btn btn-primary d-block mx-auto" style={{ margin: 'auto' }} >Submit</button>
+            <button type="submit" className="btn btn-primary d-block mx-auto" style={{ margin: 'auto',  width: '120px',height: '50px', padding: '10px', border: '2.5px solid #989696', borderRadius: '6.9px'  , }} >Submit</button>
 
          </form>
          <div className='text-danger text-center'>
