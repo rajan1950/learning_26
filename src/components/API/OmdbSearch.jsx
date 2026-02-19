@@ -18,7 +18,7 @@ export const OmdbSearch = () => {
       setmovies(res.data.Search);
    };
    return (
-      <div style={{ textAlign: "center", backgroundColor: "#d1d1d1", color: "white" }}>
+      <div style={{ textAlign: "center", backgroundColor: "#d1d1d1", color: "white" , marginBottom: "20px" , padding: "20px" , borderRadius: "10px" , border: "4px solid #989696" , borderBlock: "7px solid #898686" }}>
          <h1>MOVIE'S SEARCH</h1>
          <div className="d-flex" style={{ margin: "auto", width: "300px" }}><input  
             onChange={(e) => { setsearchParam(e.target.value) }} 
