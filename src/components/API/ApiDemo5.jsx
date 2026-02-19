@@ -2,7 +2,8 @@
 import axios from 'axios'
 import React from 'react'
 import { useForm } from 'react-hook-form'
-import { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 export const ApiDemo5 = () => {
 
@@ -55,15 +56,22 @@ export const ApiDemo5 = () => {
       
    }
 
-      const submitHandler = async (data) => {
-      // console.log(data);
-      const res = await axios.post("https://node5.onrender.com/user/user/", data)
-      console.log(res);
+   const submitHandler = async (data) => {
+      try {
+         const res = await axios.post("https://node5.onrender.com/user/user/", data)
+         console.log(res)
+         toast.success('Form submitted', { position: 'top-right' })
+      } catch (error) {
+         console.log(error)
+         toast.error('Submit failed', { position: 'top-right' })
+      }
    }
 
    return (
       <div >
          <h1 style={{ textAlign: 'center' }}>ApiDemo5</h1>
+
+         <ToastContainer position="top-right" autoClose={2500} />
 
          <form onSubmit={handleSubmit(submitHandler)} style={{ width: '600px', margin: 'auto' }}>
             {/* Name */}
